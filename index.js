@@ -71,7 +71,6 @@ const insertWordsToHeap = (dict = {}) => {
     if (word[0].length < 5) continue;
     minHeap.insert(word);
   }
-  console.log(minHeap);
   return minHeap.arr;
 };
 
